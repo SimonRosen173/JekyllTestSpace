@@ -124,6 +124,20 @@ a {
   }
 }
 
+iframe {
+  @include large {
+    width: 80%;
+  }
+
+  @include medium {
+    width: 90%;
+  }
+
+  @include small {
+    width: 100%;
+  }
+}
+
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
@@ -167,18 +181,21 @@ a {
   }
 
   @include large {
+    background-color: #000000;
     max-width: 64rem;
-    padding: 2rem 6rem;
+    padding: 2rem 6rem; // was 6
     margin: 0 auto;
     font-size: 1.1rem;
   }
 
-  @include medium {
-    padding: 2rem 1rem;
+  @include medium { // Tablet
+    background-color: #ff0000;
+    padding: 2rem 4rem;
     font-size: 1.1rem;
   }
 
-  @include small {
+  @include small { // Phone
+    background-color: #0000ff;
     padding: 2rem 1rem;
     font-size: 1rem;
   }

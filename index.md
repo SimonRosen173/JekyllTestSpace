@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+&nbsp;
 # Example Content - More to come!
 
 ## Tot Cases Per Province

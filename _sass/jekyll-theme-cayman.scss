@@ -181,7 +181,7 @@ iframe {
   }
 
   @include large {
-    background-color: #000000;
+    //background-color: #000000;
     max-width: 64rem;
     padding: 2rem 6rem; // was 6
     margin: 0 auto;
@@ -189,13 +189,13 @@ iframe {
   }
 
   @include medium { // Tablet
-    background-color: #ff0000;
+    //background-color: #ff0000;
     padding: 2rem 4rem;
     font-size: 1.1rem;
   }
 
   @include small { // Phone
-    background-color: #0000ff;
+    //background-color: #0000ff;
     padding: 2rem 1rem;
     font-size: 1rem;
   }

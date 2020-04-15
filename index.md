@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-&nbsp;
+<!--Hack to stop GitHub pages using the wrong title - hopefully-->
 # Example Content - More to come!
 
 ## Tot Cases Per Province
